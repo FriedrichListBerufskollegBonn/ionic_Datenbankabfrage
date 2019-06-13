@@ -1,0 +1,6 @@
+npm install ionic
+mysql -u root -p < eurodata_db.sql
+cp api.php /var/www/html/
+cd beispielApp
+ionic serve
+
